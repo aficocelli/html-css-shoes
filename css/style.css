@@ -28,7 +28,9 @@
 /* posizionamento menu */
 .menu-principale {
   text-align: right;
-  background-color: red;
+  position: fixed;
+  z-index: 5;
+  right:0px;
 }
 
 /* grandezze section */
