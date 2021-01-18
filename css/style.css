@@ -60,3 +60,14 @@
 .prodotto img{
   height:400px;
 }
+
+.secondo-prodotto{
+  background-color: #008000;
+}
+.terzo-prodotto{
+  background-color: #FFFF00;
+}
+
+.terzo-prodotto .descrizione-prodotto{
+  color:#008000;
+}
