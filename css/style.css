@@ -45,7 +45,6 @@
   left:50%;
   transform: translate(-50%, -50%);
   text-align: center;
-
 }
 
 /* formattazione descrizione prodotto */
@@ -60,7 +59,7 @@
 .prodotto img{
   height:400px;
 }
-
+/* variazione colori di sfondo */
 .secondo-prodotto{
   background-color: #008000;
 }
