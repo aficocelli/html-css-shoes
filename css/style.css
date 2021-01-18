@@ -1,0 +1,22 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/* colore temporaneo  */
+li {
+  background-color: red;
+}
+/* modifiche menu del sito */
+
+ li{
+  display: inline-block;
+  list-style-type: none;
+  height:50px;
+  width:50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+}
