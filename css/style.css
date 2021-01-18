@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-/* colore temporaneo  */
-
-body{
-  background-color: red;
-}
-
 /* modifiche menu del sito */
 
  .menu-principale li {
@@ -24,8 +18,8 @@ body{
   width:50px;
   border-radius: 50%;
   display: inline-block;
-  box-shadow: 1px 1px 2px #808080;
   background-color: white;
+  box-shadow: 1px 1px 2px #808080;
   text-decoration: none;
   font-weight: bold;
   color: #000000;
@@ -34,4 +28,20 @@ body{
 /* posizionamento menu */
 .menu-principale {
   text-align: right;
+  background-color: red;
+}
+
+/* grandezze section */
+
+.sezione-centrale{
+  height:100vh;
+  background-color: red;
+  position:relative;
+}
+/* posizionamento immagine e testo */
+.prodotto{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
