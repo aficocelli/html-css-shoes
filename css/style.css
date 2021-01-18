@@ -44,4 +44,19 @@
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+/* formattazione descrizione prodotto */
+.descrizione-prodotto{
+  text-transform: uppercase;
+  color:#FFFF00;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: arial;
+}
+/* grandezza immagine */
+.prodotto img{
+  height:400px;
 }
