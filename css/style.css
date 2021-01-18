@@ -5,18 +5,33 @@
 }
 
 /* colore temporaneo  */
-li {
+
+body{
   background-color: red;
 }
+
 /* modifiche menu del sito */
 
- li{
-  display: inline-block;
+ .menu-principale li {
   list-style-type: none;
-  height:50px;
-  width:50px;
-  border-radius: 50%;
   text-align: center;
   line-height: 50px;
+  margin: 20px;
+}
+
+.menu-principale li, .menu-principale a{
+  height: 50px;
+  width:50px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 1px 1px 2px #808080;
+  background-color: white;
+  text-decoration: none;
   font-weight: bold;
+  color: #000000;
+}
+
+/* posizionamento menu */
+.menu-principale {
+  text-align: right;
 }
