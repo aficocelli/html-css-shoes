@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+/* inserito effetto scroll */
+html {
+  scroll-behavior: smooth;
+}
 /* modifiche menu del sito */
 
  .menu-principale li {
@@ -67,13 +71,13 @@
   width:100%;
 }
 /* variazione colori di sfondo */
-.secondo-prodotto{
+#hilfiger{
   background-color: #008000;
 }
-.terzo-prodotto{
+#converse{
   background-color: #FFFF00;
 }
 
-.terzo-prodotto .descrizione-prodotto{
+#converse .descrizione-prodotto{
   color:#008000;
 }
