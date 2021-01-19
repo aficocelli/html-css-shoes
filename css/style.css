@@ -8,17 +8,18 @@
 
  .menu-principale li {
   list-style-type: none;
-  text-align: center;
-  line-height: 50px;
   margin: 20px;
+  display: inline-block;
 }
 
 
-.menu-principale li, .menu-principale a{
+ .menu-principale a{
   height: 50px;
   width:50px;
   border-radius: 50%;
   display: inline-block;
+  text-align: center;
+  line-height: 50px;
   background-color: white;
   box-shadow: 1px 1px 2px #808080;
   text-decoration: none;
@@ -30,7 +31,6 @@
 
 /* posizionamento menu */
 .menu-principale {
-  text-align: right;
   position: fixed;
   z-index: 5;
   right:0px;
